@@ -54,11 +54,11 @@ def the_game():
             if play_again.lower() == 'y':
                 the_game()
             elif play_again.lower() == 'n':
-                print('THE GAME: Game Over. Goodbye.')
+                print('THE GAME: Game Over.')
                 time.sleep(2.5)
                 sys.exit(0)
             else:
-                print('THE GAME: Invalid Options. Goodbye.')
+                print('THE GAME: Invalid Options.')
                 time.sleep(2.5)
                 sys.exit(0)
 
